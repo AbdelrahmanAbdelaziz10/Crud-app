@@ -52,7 +52,7 @@ function App() {
   return (
     <div className="App">
     <div className='container'>
-      <HeadTitle title={'All User'}/>
+      <HeadTitle title={'Crud App'}/>
       <div className='row'>
         <div className='col-5 col-sm-12'>
         {!state ? <UserForm  store={store}/> : <UpdateUser user={user} updateUser={updateUser}/>}
