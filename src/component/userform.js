@@ -23,7 +23,8 @@ const UserForm = ({store}) => {
         
     }
   return (
-
+<>
+    <h3 className='mb-3'>Add User</h3>
     <form className='form border p-3 mb-3' onSubmit={onSubmit}>
     <div className='mb-3'>
         <label className='mb-3' > Type User Name  </label>
@@ -36,6 +37,7 @@ const UserForm = ({store}) => {
     </div>
     <button className='btn btn-success' type='submit'> Add User</button>
     </form>
+    </>
 
   )
 }
