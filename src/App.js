@@ -54,10 +54,10 @@ function App() {
     <div className='container'>
       <HeadTitle title={'All User'}/>
       <div className='row'>
-        <div className='col-5'>
+        <div className='col-5 col-sm-12'>
         {!state ? <UserForm  store={store}/> : <UpdateUser user={user} updateUser={updateUser}/>}
         </div>
-        <div className='col-7'>
+        <div className='col-7 col-sm-12'>
         <table className='table table-bordered '>
     <thead>
         <tr>
